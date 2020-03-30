@@ -1,0 +1,933 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1",
+        "signature": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1"
+      },
+      "../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f",
+        "signature": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f"
+      },
+      "../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "../../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "./src/boxengine.ts": {
+        "version": "7395161ae00a86ac5976b48d5005d640110311d267447d1ba464c46a42f9f0e8",
+        "signature": "518f0974b55341500d4234068f32fa9750c3d373f41edebbb99c47798b2d102b"
+      },
+      "../algorithm/lib/array.d.ts": {
+        "version": "77ad0f0a5e6e9be321826d3350e07342f45ee97a693bdabf92485376b91761c4",
+        "signature": "77ad0f0a5e6e9be321826d3350e07342f45ee97a693bdabf92485376b91761c4"
+      },
+      "../algorithm/lib/iter.d.ts": {
+        "version": "fb6d2db2901daa702aca9d6c3c28f06033f920ebfa911ed56a8efdcba8c31a4f",
+        "signature": "fb6d2db2901daa702aca9d6c3c28f06033f920ebfa911ed56a8efdcba8c31a4f"
+      },
+      "../algorithm/lib/chain.d.ts": {
+        "version": "b2727f3c66375368cf27f53d39e7afc97582eae370368dea3344ed3e76b90475",
+        "signature": "b2727f3c66375368cf27f53d39e7afc97582eae370368dea3344ed3e76b90475"
+      },
+      "../algorithm/lib/empty.d.ts": {
+        "version": "de245b6c64ce2a31acc085eb7b5dacf0164f98aa17a680711aa4e6fd41b3cd4b",
+        "signature": "de245b6c64ce2a31acc085eb7b5dacf0164f98aa17a680711aa4e6fd41b3cd4b"
+      },
+      "../algorithm/lib/enumerate.d.ts": {
+        "version": "87cfce109022192057cc087fc38c50c3ad2718ee3d377c89081da723a381408f",
+        "signature": "87cfce109022192057cc087fc38c50c3ad2718ee3d377c89081da723a381408f"
+      },
+      "../algorithm/lib/filter.d.ts": {
+        "version": "55807fce02e1dca39fd9b2f21a9d0b78c0e16b46c648646b313d5806feeeb2ba",
+        "signature": "55807fce02e1dca39fd9b2f21a9d0b78c0e16b46c648646b313d5806feeeb2ba"
+      },
+      "../algorithm/lib/find.d.ts": {
+        "version": "21afe6ebe27646a0f32b17323556ed7bafdedd89639a075dd11e7499e2b9612c",
+        "signature": "21afe6ebe27646a0f32b17323556ed7bafdedd89639a075dd11e7499e2b9612c"
+      },
+      "../algorithm/lib/map.d.ts": {
+        "version": "1a78da3e59d79052b2d6dc713c3ad1e382c8b8a2ed778062ffe81bce53d8407e",
+        "signature": "1a78da3e59d79052b2d6dc713c3ad1e382c8b8a2ed778062ffe81bce53d8407e"
+      },
+      "../algorithm/lib/range.d.ts": {
+        "version": "ef779693e9f47e3483c48f99d41d344f2fb9f73d2d8e54aba2df544e0cfd07de",
+        "signature": "ef779693e9f47e3483c48f99d41d344f2fb9f73d2d8e54aba2df544e0cfd07de"
+      },
+      "../algorithm/lib/reduce.d.ts": {
+        "version": "3a1ed52a73293a0e1d24e0e2741bfc1fc2d45e872e14f38e87ea8e16b68dc966",
+        "signature": "3a1ed52a73293a0e1d24e0e2741bfc1fc2d45e872e14f38e87ea8e16b68dc966"
+      },
+      "../algorithm/lib/repeat.d.ts": {
+        "version": "2488f739939c0b474066c3513a6d362b12f13da403923c1fc97a1cc362833645",
+        "signature": "2488f739939c0b474066c3513a6d362b12f13da403923c1fc97a1cc362833645"
+      },
+      "../algorithm/lib/retro.d.ts": {
+        "version": "444a1640a23065fa7751e670d37836441f870bff2b3367768221d2d35b7c05ab",
+        "signature": "444a1640a23065fa7751e670d37836441f870bff2b3367768221d2d35b7c05ab"
+      },
+      "../algorithm/lib/sort.d.ts": {
+        "version": "0a64bc6ee9cea647fca05a3cc7785950d11b9a512a25c885c0593718194308fe",
+        "signature": "0a64bc6ee9cea647fca05a3cc7785950d11b9a512a25c885c0593718194308fe"
+      },
+      "../algorithm/lib/stride.d.ts": {
+        "version": "7063a384252b09882cb0aa1236bbc264c2f78468dfeff1fda6c7eacc90220fca",
+        "signature": "7063a384252b09882cb0aa1236bbc264c2f78468dfeff1fda6c7eacc90220fca"
+      },
+      "../algorithm/lib/string.d.ts": {
+        "version": "1cb9099cb325ee016f4ff8cd06684d5e708898bec1cb031d29741fe6deb68bda",
+        "signature": "1cb9099cb325ee016f4ff8cd06684d5e708898bec1cb031d29741fe6deb68bda"
+      },
+      "../algorithm/lib/take.d.ts": {
+        "version": "4557ecbb6b007b733a2a14f32660e9cd80f43d3e7732da35fe48b2af8f353e41",
+        "signature": "4557ecbb6b007b733a2a14f32660e9cd80f43d3e7732da35fe48b2af8f353e41"
+      },
+      "../algorithm/lib/zip.d.ts": {
+        "version": "d20769a9ae113f35153bc23308ae80f289fd8b403a16ef55b7e0a5ad09bb80b6",
+        "signature": "d20769a9ae113f35153bc23308ae80f289fd8b403a16ef55b7e0a5ad09bb80b6"
+      },
+      "../algorithm/lib/index.d.ts": {
+        "version": "f5b96373e034ee40f5db161de7624402e4ac79f5dc510377af8a29afee2b15ec",
+        "signature": "f5b96373e034ee40f5db161de7624402e4ac79f5dc510377af8a29afee2b15ec"
+      },
+      "../domutils/lib/clipboard.d.ts": {
+        "version": "d74b8dca6c852950566c49d6a943c1faf71e71ac1214de64b93ed9f107d77a5e",
+        "signature": "d74b8dca6c852950566c49d6a943c1faf71e71ac1214de64b93ed9f107d77a5e"
+      },
+      "../domutils/lib/element.d.ts": {
+        "version": "86afaff5e7be8e8fd6fd42151e8104a89df3ca45f62487f901e556d6c3785cc9",
+        "signature": "86afaff5e7be8e8fd6fd42151e8104a89df3ca45f62487f901e556d6c3785cc9"
+      },
+      "../domutils/lib/platform.d.ts": {
+        "version": "efdad1b4d737909415c2a1708fc7fd577e881cfa07c434922f99b0ff1e231d9f",
+        "signature": "efdad1b4d737909415c2a1708fc7fd577e881cfa07c434922f99b0ff1e231d9f"
+      },
+      "../domutils/lib/selector.d.ts": {
+        "version": "b692eb8f348671a6da2f282689e02dde555531ad8be8d07399fdde9a5bb740b3",
+        "signature": "b692eb8f348671a6da2f282689e02dde555531ad8be8d07399fdde9a5bb740b3"
+      },
+      "../domutils/lib/index.d.ts": {
+        "version": "0d9fc707e3fbcbd4d3fa5cbb96a34be03ea3fab34045eb346701ed4ba4b8ee26",
+        "signature": "0d9fc707e3fbcbd4d3fa5cbb96a34be03ea3fab34045eb346701ed4ba4b8ee26"
+      },
+      "../messaging/lib/index.d.ts": {
+        "version": "8b879d92487be3d7fda0ca6ca603edd2371025809af5253444136d7e5d7458a3",
+        "signature": "8b879d92487be3d7fda0ca6ca603edd2371025809af5253444136d7e5d7458a3"
+      },
+      "../properties/lib/index.d.ts": {
+        "version": "a5b6a3bb19549e18280f574106dd85915d3bf14fce64c7df4292dab3739418ea",
+        "signature": "a5b6a3bb19549e18280f574106dd85915d3bf14fce64c7df4292dab3739418ea"
+      },
+      "../signaling/lib/index.d.ts": {
+        "version": "311421cce6ca0b1071c1630fea95e8bcd7e4ed20bd472b2c0409c1015520c4c7",
+        "signature": "311421cce6ca0b1071c1630fea95e8bcd7e4ed20bd472b2c0409c1015520c4c7"
+      },
+      "../disposable/lib/index.d.ts": {
+        "version": "87060f192e4c3b492397bcee1395aa411d9b95189241d248a64e50286ddf2264",
+        "signature": "87060f192e4c3b492397bcee1395aa411d9b95189241d248a64e50286ddf2264"
+      },
+      "../virtualdom/lib/index.d.ts": {
+        "version": "62acc5046c9e8c868c652f056d78ff9debd117d25451eba8b5fad5c8cccde655",
+        "signature": "62acc5046c9e8c868c652f056d78ff9debd117d25451eba8b5fad5c8cccde655"
+      },
+      "./src/title.ts": {
+        "version": "15cd2febc76b4bc34a8dd6ff5a1d692e4c2ff3e887ed58775a575dc7b0b82e18",
+        "signature": "54e77fa97fe3b31700f2b018ae1b4ff4094041b6a7718982a671186e813b736f"
+      },
+      "./src/widget.ts": {
+        "version": "b79c6e63374483af2b7956e1c5f7a69899a39f0bbd44bfa2bede1b9172d3354f",
+        "signature": "f6a911708cff86a5e64b79ef20566e30c95dc0a7e249dc71ec5fbcbe6706705b"
+      },
+      "./src/layout.ts": {
+        "version": "6cd49336232b355a578fb974b02cb462fd1b865db5b53e948813c2440c123b20",
+        "signature": "bf0443ca576db0ebac92b2a59748210765e79d56a9a781d41b9adf9f19f64417"
+      },
+      "./src/panellayout.ts": {
+        "version": "93bb483e7a1e7ce8b0f361a688006be88618c2df245bfafe6df37e3bad11ae7d",
+        "signature": "a170ed32949315f206f3b24b01463559f051dfd81454c07f6e52d41c928b51f2"
+      },
+      "./src/boxlayout.ts": {
+        "version": "1758911d32cd9f105e009ae03cfe8713073127bf56fe9281a260a8f084a007de",
+        "signature": "ae9cc5b6e39deb286bc628d893d2484b2c326ac4ddba65b62372a237498abbc8"
+      },
+      "./src/panel.ts": {
+        "version": "ac5d1ee769525631c8ce5719ff32da3fd11cf50344828fa58b78b57d2c9bdf76",
+        "signature": "d9bda13de04067b09bd723693fd3c87583b958d3593f0881e333fb75fa9e79e3"
+      },
+      "./src/boxpanel.ts": {
+        "version": "514401ce2d0b4539b519307e6546ce05b717f8478c5ff1f11f7c2050c501e2b9",
+        "signature": "6742b16104faa968b6daf0d577348e7be96c5988492c8bf5616fa79209de3906"
+      },
+      "../coreutils/lib/json.d.ts": {
+        "version": "7cbb40500b5503ccd7d07a72c22bcfd8d846d78f5d22ea580acdcc4ec0b41c1a",
+        "signature": "7cbb40500b5503ccd7d07a72c22bcfd8d846d78f5d22ea580acdcc4ec0b41c1a"
+      },
+      "../coreutils/lib/mime.d.ts": {
+        "version": "28e06b63c3f364ef754eedfb0cb0f5127011f3d685e102f07ff5c56aa87d1562",
+        "signature": "28e06b63c3f364ef754eedfb0cb0f5127011f3d685e102f07ff5c56aa87d1562"
+      },
+      "../coreutils/lib/promise.d.ts": {
+        "version": "b0ee12813f8d26468aba1fd860db8180eb9e332183ad839dd554a2f19c8983cc",
+        "signature": "b0ee12813f8d26468aba1fd860db8180eb9e332183ad839dd554a2f19c8983cc"
+      },
+      "../coreutils/lib/random.d.ts": {
+        "version": "b407b6761debdcd11022f0157535e7bc4977433fc09b6c188cd7c324ded64a5d",
+        "signature": "b407b6761debdcd11022f0157535e7bc4977433fc09b6c188cd7c324ded64a5d"
+      },
+      "../coreutils/lib/token.d.ts": {
+        "version": "4873fe69c2bd7be609e6f3f033db4534b88735ff0769e18cb100cbf24f25e0f1",
+        "signature": "4873fe69c2bd7be609e6f3f033db4534b88735ff0769e18cb100cbf24f25e0f1"
+      },
+      "../coreutils/lib/uuid.d.ts": {
+        "version": "094815f0e8d3c53c1b983debb0559cb347ad78142419654b6093ce285aa150cd",
+        "signature": "094815f0e8d3c53c1b983debb0559cb347ad78142419654b6093ce285aa150cd"
+      },
+      "../coreutils/lib/index.d.ts": {
+        "version": "cc0fca544c9ee63d754899e93ebae35c8ba8304a100126b9c3dadee2c91a2250",
+        "signature": "cc0fca544c9ee63d754899e93ebae35c8ba8304a100126b9c3dadee2c91a2250"
+      },
+      "../commands/lib/index.d.ts": {
+        "version": "88b691e9f79f6f28bd8295b4808aeb90614756256cac6e7e93459841d7643d60",
+        "signature": "88b691e9f79f6f28bd8295b4808aeb90614756256cac6e7e93459841d7643d60"
+      },
+      "./src/commandpalette.ts": {
+        "version": "db466d0ea4e70949599335f668c95364d0e18ea581bc2e289a76f758ca97690e",
+        "signature": "82ae4f46e8b65c7b0a5d8804a555452333ff935750ef05dd3eb179435a43838a"
+      },
+      "../keyboard/lib/index.d.ts": {
+        "version": "7f80c910bb2e57d2638c598840a09ce74bda1a7cd7e24d24ee7d3be65faaa40f",
+        "signature": "7f80c910bb2e57d2638c598840a09ce74bda1a7cd7e24d24ee7d3be65faaa40f"
+      },
+      "./src/menu.ts": {
+        "version": "081e6e2a613cf07838edf9baeb28955dddb75a54f0747278dd80c125ab9737c3",
+        "signature": "3c2a60c6b891bf33ad2cca6ba6638c28dfc92d064be47782678b7ea2b23740e3"
+      },
+      "./src/contextmenu.ts": {
+        "version": "46b0290671e95da3b4f80fcc3d9e1734b86955612523a404c2b1c1cca3663d22",
+        "signature": "cfc25d2479421b9f89ecd21069ac277b086e2f93d6fbe6d169b54343a6dd7cdb"
+      },
+      "../dragdrop/lib/index.d.ts": {
+        "version": "f11e505e890c694e62e14543ea25510bec8f127f39401c7bf7665bab3c945c9f",
+        "signature": "f11e505e890c694e62e14543ea25510bec8f127f39401c7bf7665bab3c945c9f"
+      },
+      "./src/tabbar.ts": {
+        "version": "a972ea2f6d2ce72bc57bb87f32d94c618357f7731226122aa081bbb243e7c370",
+        "signature": "09190552321539054bfffcfc4ef74504c9253ff858037796641a1b0cc83e436a"
+      },
+      "./src/docklayout.ts": {
+        "version": "37323d804795b5e7fe500fe28c3e11f8be1a526ef7e73e484506d016d0840b8b",
+        "signature": "b26df2b53af86fd2caf3ffe2afdf208bb2fcf30b4ace9454487d8d311baecd60"
+      },
+      "./src/dockpanel.ts": {
+        "version": "fa1ac9b88379a0f99f6e6dfef81afb9fbf16616fda1ad2e299206eef6bec35b4",
+        "signature": "7eb9476ffdfc10f344ff0a686d783a2ff9fa8797722d692c077767a979975b7c"
+      },
+      "./src/focustracker.ts": {
+        "version": "bcd23f771eec6dd4e8418cb95f8df300170baa801ab0ac9cf56cc307a7b9d634",
+        "signature": "86020ba5f9603decdc09364cac1315e939ec4ccfa084f9fca7ac650b1d2bd0ec"
+      },
+      "./src/gridlayout.ts": {
+        "version": "dc15c40c08b859ee86b119b53aa0d80e3b8561fbb42e5715d1df1ea983e88191",
+        "signature": "be0b06da33a0a27fdbe36564633711b29633fb9c7815d7c5c62460d2a027574a"
+      },
+      "./src/menubar.ts": {
+        "version": "ff260c4c0fd106a3046d3a0b51ea09b735eca5b1b985c08b59aacd2c1d877413",
+        "signature": "17f9d9a823c857ea88dabbe94a3e718a3db5924c6e4950c00037402010ac430e"
+      },
+      "./src/scrollbar.ts": {
+        "version": "abac9ece290424432f8b9cd46c926eaee8843801680d93f8a4b633cc91e6f470",
+        "signature": "d5bda740328264c917651833091016f73cde97f3ed47d2ce5b32161ffd4dc930"
+      },
+      "./src/singletonlayout.ts": {
+        "version": "4a716c55d20ab0bf4f750eb9a3e57a6413d8f04f75329fcc349f6d28c6e77cf3",
+        "signature": "5cd0aa97b8c05bc1d8827c44bc3a6be6941c73fe4bf88086d25ea8694a45134d"
+      },
+      "./src/splitlayout.ts": {
+        "version": "41b6f659a66d1c9718a6cb40d086cb906f11e7538249b98e920cd5f39c68316a",
+        "signature": "7205a2b1a56dcfbecd10262e3f6d0f88e895e6e585c4dde839c51e15a62830e9"
+      },
+      "./src/splitpanel.ts": {
+        "version": "33c034ec1939538051f725099230b1c6001ee984a29e78ebd98c5e6e0f1abc0e",
+        "signature": "db380b2a457001e3f1102b28989f8bd9b2bf69627f43fed92cde99e9f32016bb"
+      },
+      "./src/stackedlayout.ts": {
+        "version": "260f06df8794d56bf0cfc4758aab21aae9f8aa67011719044ec5dee9aea84e03",
+        "signature": "138dc46c339d7d67fb42404386e5f9f7150eff3a48061ca04d44f3555f9bdf6d"
+      },
+      "./src/stackedpanel.ts": {
+        "version": "fa5cfc685ab9eae51e9bf6a5495905b915bb1beb2f212e526b56750fc18de9b6",
+        "signature": "1b395aaf7719842e8707846bcf19beff64cc89f7d28ea7c4d9e7f6bac17a90e0"
+      },
+      "./src/tabpanel.ts": {
+        "version": "2638436b8c3d07ede3546e930a11c96b82035df2f500e8002f0a030b9e925230",
+        "signature": "182edba81e9d1154f0f772847ebd3098951cb6765496b8a0d24b9589bb9e9d57"
+      },
+      "./src/index.ts": {
+        "version": "517404ca8c3467a0c4b710e9e228b951404699f34a72d99db977b2883fe47741",
+        "signature": "ce75ab9766be65e1b6837cba39ea25ebfbe25f431e0f97e1863743817fad2d91"
+      }
+    },
+    "options": {
+      "composite": true,
+      "declaration": true,
+      "noImplicitAny": true,
+      "noEmitOnError": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "module": 1,
+      "moduleResolution": 2,
+      "target": 1,
+      "outDir": "./lib",
+      "lib": [
+        "lib.es5.d.ts",
+        "lib.es2015.collection.d.ts",
+        "lib.es2015.promise.d.ts",
+        "lib.es2015.iterable.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "types": [],
+      "rootDir": "./src",
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "../algorithm/lib/chain.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/empty.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/enumerate.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/filter.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/find.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/map.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/range.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/reduce.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/repeat.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/retro.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/sort.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/stride.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/take.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/zip.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/index.d.ts": [
+        "../algorithm/lib/array.d.ts",
+        "../algorithm/lib/chain.d.ts",
+        "../algorithm/lib/empty.d.ts",
+        "../algorithm/lib/enumerate.d.ts",
+        "../algorithm/lib/filter.d.ts",
+        "../algorithm/lib/find.d.ts",
+        "../algorithm/lib/iter.d.ts",
+        "../algorithm/lib/map.d.ts",
+        "../algorithm/lib/range.d.ts",
+        "../algorithm/lib/reduce.d.ts",
+        "../algorithm/lib/repeat.d.ts",
+        "../algorithm/lib/retro.d.ts",
+        "../algorithm/lib/sort.d.ts",
+        "../algorithm/lib/stride.d.ts",
+        "../algorithm/lib/string.d.ts",
+        "../algorithm/lib/take.d.ts",
+        "../algorithm/lib/zip.d.ts"
+      ],
+      "../domutils/lib/index.d.ts": [
+        "../domutils/lib/clipboard.d.ts",
+        "../domutils/lib/element.d.ts",
+        "../domutils/lib/platform.d.ts",
+        "../domutils/lib/selector.d.ts"
+      ],
+      "../disposable/lib/index.d.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../signaling/lib/index.d.ts"
+      ],
+      "./src/title.ts": [
+        "../signaling/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "./src/widget.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../properties/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "./src/layout.ts",
+        "./src/title.ts"
+      ],
+      "./src/layout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../properties/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "./src/widget.ts"
+      ],
+      "./src/panellayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/layout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/boxlayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../properties/lib/index.d.ts",
+        "./src/boxengine.ts",
+        "./src/layout.ts",
+        "./src/panellayout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/panel.ts": [
+        "./src/panellayout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/boxpanel.ts": [
+        "./src/boxlayout.ts",
+        "./src/panel.ts",
+        "./src/widget.ts"
+      ],
+      "../coreutils/lib/index.d.ts": [
+        "../coreutils/lib/json.d.ts",
+        "../coreutils/lib/mime.d.ts",
+        "../coreutils/lib/promise.d.ts",
+        "../coreutils/lib/random.d.ts",
+        "../coreutils/lib/token.d.ts",
+        "../coreutils/lib/uuid.d.ts"
+      ],
+      "../commands/lib/index.d.ts": [
+        "../coreutils/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "./src/commandpalette.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../coreutils/lib/index.d.ts",
+        "../commands/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts",
+        "./src/widget.ts"
+      ],
+      "./src/menu.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../commands/lib/index.d.ts",
+        "../coreutils/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../keyboard/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts",
+        "./src/widget.ts"
+      ],
+      "./src/contextmenu.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../commands/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "./src/menu.ts"
+      ],
+      "../dragdrop/lib/index.d.ts": [
+        "../coreutils/lib/index.d.ts",
+        "../disposable/lib/index.d.ts"
+      ],
+      "./src/tabbar.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../dragdrop/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts",
+        "./src/title.ts",
+        "./src/widget.ts"
+      ],
+      "./src/docklayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/boxengine.ts",
+        "./src/layout.ts",
+        "./src/tabbar.ts",
+        "./src/widget.ts"
+      ],
+      "./src/dockpanel.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../coreutils/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../dragdrop/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../properties/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "./src/docklayout.ts",
+        "./src/tabbar.ts",
+        "./src/widget.ts"
+      ],
+      "./src/focustracker.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "./src/widget.ts"
+      ],
+      "./src/gridlayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../properties/lib/index.d.ts",
+        "./src/boxengine.ts",
+        "./src/layout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/menubar.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../keyboard/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts",
+        "./src/menu.ts",
+        "./src/title.ts",
+        "./src/widget.ts"
+      ],
+      "./src/scrollbar.ts": [
+        "../disposable/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../dragdrop/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "./src/widget.ts"
+      ],
+      "./src/singletonlayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/layout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/splitlayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../properties/lib/index.d.ts",
+        "./src/boxengine.ts",
+        "./src/layout.ts",
+        "./src/panellayout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/splitpanel.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../dragdrop/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/panel.ts",
+        "./src/splitlayout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/stackedlayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/layout.ts",
+        "./src/panellayout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/stackedpanel.ts": [
+        "../signaling/lib/index.d.ts",
+        "./src/panel.ts",
+        "./src/stackedlayout.ts",
+        "./src/widget.ts"
+      ],
+      "./src/tabpanel.ts": [
+        "../domutils/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "./src/boxlayout.ts",
+        "./src/stackedpanel.ts",
+        "./src/tabbar.ts",
+        "./src/widget.ts"
+      ],
+      "./src/index.ts": [
+        "./src/boxengine.ts",
+        "./src/boxlayout.ts",
+        "./src/boxpanel.ts",
+        "./src/commandpalette.ts",
+        "./src/contextmenu.ts",
+        "./src/docklayout.ts",
+        "./src/dockpanel.ts",
+        "./src/focustracker.ts",
+        "./src/gridlayout.ts",
+        "./src/layout.ts",
+        "./src/menu.ts",
+        "./src/menubar.ts",
+        "./src/panel.ts",
+        "./src/panellayout.ts",
+        "./src/scrollbar.ts",
+        "./src/singletonlayout.ts",
+        "./src/splitlayout.ts",
+        "./src/splitpanel.ts",
+        "./src/stackedlayout.ts",
+        "./src/stackedpanel.ts",
+        "./src/tabbar.ts",
+        "./src/tabpanel.ts",
+        "./src/title.ts",
+        "./src/widget.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./src/index.ts": [
+        "./src/boxengine.ts",
+        "./src/boxlayout.ts",
+        "./src/boxpanel.ts",
+        "./src/commandpalette.ts",
+        "./src/contextmenu.ts",
+        "./src/docklayout.ts",
+        "./src/dockpanel.ts",
+        "./src/focustracker.ts",
+        "./src/gridlayout.ts",
+        "./src/layout.ts",
+        "./src/menu.ts",
+        "./src/menubar.ts",
+        "./src/panel.ts",
+        "./src/panellayout.ts",
+        "./src/scrollbar.ts",
+        "./src/singletonlayout.ts",
+        "./src/splitlayout.ts",
+        "./src/splitpanel.ts",
+        "./src/stackedlayout.ts",
+        "./src/stackedpanel.ts",
+        "./src/tabbar.ts",
+        "./src/tabpanel.ts",
+        "./src/title.ts",
+        "./src/widget.ts"
+      ],
+      "./src/splitlayout.ts": [
+        "./src/widget.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/panellayout.ts"
+      ],
+      "./src/splitpanel.ts": [
+        "../messaging/lib/index.d.ts",
+        "./src/widget.ts",
+        "./src/panel.ts",
+        "./src/splitlayout.ts"
+      ],
+      "./src/gridlayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "./src/widget.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/layout.ts"
+      ],
+      "./src/docklayout.ts": [
+        "../algorithm/lib/index.d.ts",
+        "./src/widget.ts",
+        "./src/tabbar.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/layout.ts"
+      ],
+      "./src/dockpanel.ts": [
+        "../signaling/lib/index.d.ts",
+        "../algorithm/lib/index.d.ts",
+        "./src/widget.ts",
+        "./src/tabbar.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/docklayout.ts"
+      ],
+      "./src/boxlayout.ts": [
+        "./src/widget.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/panellayout.ts"
+      ],
+      "./src/tabpanel.ts": [
+        "../signaling/lib/index.d.ts",
+        "./src/widget.ts",
+        "./src/tabbar.ts",
+        "./src/stackedpanel.ts"
+      ],
+      "./src/boxpanel.ts": [
+        "./src/widget.ts",
+        "./src/panel.ts",
+        "./src/boxlayout.ts"
+      ],
+      "../algorithm/lib/index.d.ts": [
+        "../algorithm/lib/array.d.ts",
+        "../algorithm/lib/chain.d.ts",
+        "../algorithm/lib/empty.d.ts",
+        "../algorithm/lib/enumerate.d.ts",
+        "../algorithm/lib/filter.d.ts",
+        "../algorithm/lib/find.d.ts",
+        "../algorithm/lib/iter.d.ts",
+        "../algorithm/lib/map.d.ts",
+        "../algorithm/lib/range.d.ts",
+        "../algorithm/lib/reduce.d.ts",
+        "../algorithm/lib/repeat.d.ts",
+        "../algorithm/lib/retro.d.ts",
+        "../algorithm/lib/sort.d.ts",
+        "../algorithm/lib/stride.d.ts",
+        "../algorithm/lib/string.d.ts",
+        "../algorithm/lib/take.d.ts",
+        "../algorithm/lib/zip.d.ts"
+      ],
+      "./src/stackedlayout.ts": [
+        "./src/widget.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/panellayout.ts"
+      ],
+      "./src/stackedpanel.ts": [
+        "../signaling/lib/index.d.ts",
+        "./src/widget.ts",
+        "./src/panel.ts",
+        "./src/stackedlayout.ts"
+      ],
+      "./src/singletonlayout.ts": [
+        "./src/widget.ts",
+        "../algorithm/lib/index.d.ts",
+        "./src/layout.ts"
+      ],
+      "./src/menubar.ts": [
+        "./src/menu.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/widget.ts",
+        "./src/title.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "./src/focustracker.ts": [
+        "./src/widget.ts",
+        "../signaling/lib/index.d.ts",
+        "../disposable/lib/index.d.ts"
+      ],
+      "./src/tabbar.ts": [
+        "../signaling/lib/index.d.ts",
+        "./src/title.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/widget.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "./src/contextmenu.ts": [
+        "./src/menu.ts",
+        "../disposable/lib/index.d.ts",
+        "../commands/lib/index.d.ts"
+      ],
+      "./src/menu.ts": [
+        "../signaling/lib/index.d.ts",
+        "../commands/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/widget.ts",
+        "../coreutils/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "./src/commandpalette.ts": [
+        "../commands/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/widget.ts",
+        "../coreutils/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "./src/panellayout.ts": [
+        "./src/widget.ts",
+        "../algorithm/lib/index.d.ts",
+        "./src/layout.ts"
+      ],
+      "./src/panel.ts": [
+        "./src/widget.ts",
+        "./src/panellayout.ts"
+      ],
+      "./src/layout.ts": [
+        "./src/widget.ts",
+        "../algorithm/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../disposable/lib/index.d.ts"
+      ],
+      "./src/widget.ts": [
+        "../signaling/lib/index.d.ts",
+        "./src/title.ts",
+        "./src/layout.ts",
+        "../algorithm/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "../disposable/lib/index.d.ts"
+      ],
+      "./src/scrollbar.ts": [
+        "../signaling/lib/index.d.ts",
+        "../messaging/lib/index.d.ts",
+        "./src/widget.ts"
+      ],
+      "../disposable/lib/index.d.ts": [
+        "../algorithm/lib/index.d.ts",
+        "../signaling/lib/index.d.ts"
+      ],
+      "../dragdrop/lib/index.d.ts": [
+        "../coreutils/lib/index.d.ts",
+        "../disposable/lib/index.d.ts"
+      ],
+      "../commands/lib/index.d.ts": [
+        "../coreutils/lib/index.d.ts",
+        "../disposable/lib/index.d.ts",
+        "../signaling/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "../algorithm/lib/zip.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/take.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/stride.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/sort.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/retro.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/repeat.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/reduce.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/range.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/map.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/find.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/filter.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/enumerate.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/empty.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../algorithm/lib/chain.d.ts": [
+        "../algorithm/lib/iter.d.ts"
+      ],
+      "../domutils/lib/index.d.ts": [
+        "../domutils/lib/clipboard.d.ts",
+        "../domutils/lib/element.d.ts",
+        "../domutils/lib/platform.d.ts",
+        "../domutils/lib/selector.d.ts"
+      ],
+      "./src/title.ts": [
+        "../signaling/lib/index.d.ts",
+        "../virtualdom/lib/index.d.ts"
+      ],
+      "../coreutils/lib/index.d.ts": [
+        "../coreutils/lib/json.d.ts",
+        "../coreutils/lib/mime.d.ts",
+        "../coreutils/lib/promise.d.ts",
+        "../coreutils/lib/random.d.ts",
+        "../coreutils/lib/token.d.ts",
+        "../coreutils/lib/uuid.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./src/boxengine.ts",
+      "../algorithm/lib/array.d.ts",
+      "../algorithm/lib/iter.d.ts",
+      "../algorithm/lib/chain.d.ts",
+      "../algorithm/lib/empty.d.ts",
+      "../algorithm/lib/enumerate.d.ts",
+      "../algorithm/lib/filter.d.ts",
+      "../algorithm/lib/find.d.ts",
+      "../algorithm/lib/map.d.ts",
+      "../algorithm/lib/range.d.ts",
+      "../algorithm/lib/reduce.d.ts",
+      "../algorithm/lib/repeat.d.ts",
+      "../algorithm/lib/retro.d.ts",
+      "../algorithm/lib/sort.d.ts",
+      "../algorithm/lib/stride.d.ts",
+      "../algorithm/lib/string.d.ts",
+      "../algorithm/lib/take.d.ts",
+      "../algorithm/lib/zip.d.ts",
+      "../algorithm/lib/index.d.ts",
+      "../domutils/lib/clipboard.d.ts",
+      "../domutils/lib/element.d.ts",
+      "../domutils/lib/platform.d.ts",
+      "../domutils/lib/selector.d.ts",
+      "../domutils/lib/index.d.ts",
+      "../messaging/lib/index.d.ts",
+      "../properties/lib/index.d.ts",
+      "../signaling/lib/index.d.ts",
+      "../disposable/lib/index.d.ts",
+      "../virtualdom/lib/index.d.ts",
+      "./src/title.ts",
+      "./src/widget.ts",
+      "./src/layout.ts",
+      "./src/panellayout.ts",
+      "./src/boxlayout.ts",
+      "./src/panel.ts",
+      "./src/boxpanel.ts",
+      "../coreutils/lib/json.d.ts",
+      "../coreutils/lib/mime.d.ts",
+      "../coreutils/lib/promise.d.ts",
+      "../coreutils/lib/random.d.ts",
+      "../coreutils/lib/token.d.ts",
+      "../coreutils/lib/uuid.d.ts",
+      "../coreutils/lib/index.d.ts",
+      "../commands/lib/index.d.ts",
+      "./src/commandpalette.ts",
+      "../keyboard/lib/index.d.ts",
+      "./src/menu.ts",
+      "./src/contextmenu.ts",
+      "../dragdrop/lib/index.d.ts",
+      "./src/tabbar.ts",
+      "./src/docklayout.ts",
+      "./src/dockpanel.ts",
+      "./src/focustracker.ts",
+      "./src/gridlayout.ts",
+      "./src/menubar.ts",
+      "./src/scrollbar.ts",
+      "./src/singletonlayout.ts",
+      "./src/splitlayout.ts",
+      "./src/splitpanel.ts",
+      "./src/stackedlayout.ts",
+      "./src/stackedpanel.ts",
+      "./src/tabpanel.ts",
+      "./src/index.ts",
+      "../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts"
+    ]
+  },
+  "version": "3.6.4"
+}
